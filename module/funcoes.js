@@ -68,7 +68,6 @@ const getAllMensagens = function(number){
     delete message.usuarioMensagens['created-since']
     delete message.usuarioMensagens['profile-image']
     delete message.usuarioMensagens.background
-    delete message.usuarioMensagens.contacts.name
 
     message.usuarioMensagens.contacts.forEach(function(item){
         delete item.description
